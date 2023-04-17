@@ -1,0 +1,270 @@
+@import url(./general.css);
+
+@media screen and (max-width: 768px) {
+    /*General styles*/
+    body{
+        position: relative;
+    }
+
+    /*NAV*/
+    .nav{
+       justify-content: space-between;
+    }
+    
+    /*Menu*/
+    .menu-list-hidden{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: var(--primary-font-color);
+        width: 60vh;
+        height: 100vh;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        text-align: center;
+        left: -430px;
+        animation: hidden-menu .5s ease-in-out;
+    }
+
+    .menu-list-activated{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: var(--primary-font-color);
+        width: 60vh;
+        height: 100vh;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        text-align: center;
+        animation: activated-menu .5s ease-in-out;
+    }
+
+    .menu-list li{
+        margin: 20px 0;
+        line-height: 70px;
+    }
+
+    .menu-list li:hover{
+        background-color: brown;
+    }
+
+    .home-link{
+        display: block;
+    }
+
+    .menu-list li a{
+        font-size: 2.5rem;
+    }
+
+    /*Toggle buttom menu*/
+    .mobile-menu-button{
+        display: block;
+    }
+
+    .toggle-button{
+        animation: increase-button .1s ease-in-out;
+        font-size: 30px;
+    }
+
+    .toggle-button-click{
+        animation: decrease-button .1s ease-in-out;
+        font-size: 0;
+    }
+
+    .x-button{
+        animation: decrease-button .1s ease-in-out;
+        font-size: 0;
+    }
+
+    .x-button-click{
+        text-align: center;
+        font-weight: 600;
+        display: block;
+        animation-delay: 1s;
+        animation: increase-button .1s ease-in-out;
+        font-size: 38px;
+    }
+
+
+    @keyframes decrease-button {
+        0%{
+            font-size: 30px;
+        }
+        20%{
+            font-size: 25px;
+        }
+        40%{
+            font-size: 20px;
+        }
+        60%{
+            font-size: 15px;
+        }
+        80%{
+            font-size: 10px;
+        }
+        100%{
+            font-size: 0;
+        }
+    }
+
+    @keyframes increase-button {
+        0%{
+            font-size: 0;
+        }
+        20%{
+            font-size: 10px;
+        }
+        40%{
+            font-size: 15px;
+        }
+        60%{
+            font-size: 20px;
+        }
+        80%{
+            font-size: 25px;
+        }
+        100%{
+            font-size: 30px;
+        }
+    }
+
+    /*header*/
+    .presentation{
+        padding: 25vh 0;
+    }
+
+    h1{
+        font-size: 2.5rem;
+        margin-bottom: 2vh;
+    }
+
+    .presentation-paragraph{
+        width: 450px;
+    }
+
+    /*Section general mobile style*/
+    .sections-title{
+        width: 100%;
+        animation: none;
+        text-align: center;
+        padding: 0;
+    }
+
+    .sections-title:hover{
+        animation: none;
+        padding: 0;
+    }
+
+    /*Services section*/
+    .services-card-info{
+        width: 30%;
+        height: 38vh;
+    }
+
+    .info-2-call-to-action{
+        display: block;
+    }
+
+    .template-photo{
+        width: 95vh;
+    }
+
+    /*Aqui será a edição da foto*/
+
+    .concept-card{
+        width: 30%;
+    }
+
+    /*Abilities section*/
+    .abilities-box{
+        justify-content: space-evenly;
+    }
+
+    .abilities-box-technologies{
+        width: 30%;
+    }
+
+    .abilities-box-technologies:hover{
+        height: 60vh;
+    }
+
+    /*Contact section*/
+    .contat-area{
+        display: block;
+    }
+
+    form{
+        text-align: center;
+    }
+
+    .social-medias{
+        justify-content: space-evenly;
+    }
+
+    /*Footer*/
+    .end-info{
+        display: block;
+        text-align: center;
+    }
+
+    .ong-n-sicial-project{
+        margin: 0 auto;
+    }
+
+    .auxiliary-menu{
+        display: none;
+    }
+
+    .end-footer{
+        text-align: center;
+        font-size: .8rem;
+    }
+
+    .end-logo{
+        display: none;
+    }
+
+    @keyframes activated-menu { /*to emerge menu mobile*/
+        0%{
+            left: -430px;
+        }
+        20%{
+            left: -400px;
+        }
+        40%{
+            left: -300px;
+        }
+        60%{
+            left: -200px;
+        }
+        80%{
+            left: -100px;
+        }
+        100%{
+            left: 0;
+        }
+    }
+
+    @keyframes hidden-menu { /*to emerge menu mobile*/
+        0%{
+            left: 0;
+        }
+        20%{
+            left: -100px;
+        }
+        40%{
+            left: -200px;
+        }
+        60%{
+            left: -300px;
+        }
+        80%{
+            left: -400px;
+        }
+        100%{
+            left: -430px;
+        }
+    }
+}

@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Programador web front-end, estudante de análise e desenvolvimento de sistemas, apaixonado por tecnologia e um curioso nato.">
+    <meta name="keywords" content="front-end, HTML5, CSS3, Javascript, dev, jr, pessoa desenvolvedora, programador, portfólio, desenvolvedor web, sites, Campina Grande, Paraíba, PB">
+    <title>Alex Santos | Web Developer</title>
+    <link rel="shortcut icon" href="./res/images/icon-favicon-tab.png" type="image/x-icon" style="border-radius: 40px;">
+    <link rel="stylesheet" href="./res/styles/general.css">
+    <link rel="stylesheet" href="./res/styles/desktop.css">
+    <link rel="stylesheet" href="./res/styles/mobile.css">
+    <link rel="stylesheet" href="https://cdn.es.gov.br/fonts/font-awesome/css/font-awesome.min.css">
+    <script src="./res/scripts/mobile-menu-button.js" defer></script>
+    <script src="./res/scripts/troca-palavras-header.js" defer></script>
+    <script src="./res/scripts/teste.js" defer></script>
+</head>
+<body>
+    <nav class="nav-box">
+        <nav class="nav container">
+            <div class="nav-logo">
+                <a href="./index.html">
+                    <img class="logo" src="./res/images/main-logo-png.png" alt="Logo Alex Santos Web Developer" style="width: 130px;">
+                </a>
+            </div>
+
+            <nav>
+                <ul id="menu-list" class="menu-list menu-list-hidden">
+                    <li class="home-link">
+                        <a href="./index.html">Iniciar</a>
+                    </li>
+
+                    <li>
+                        <a href="#services">Serviços</a>
+                    </li>
+                    <li>
+                        <a href="#about">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#abilities">Habilidades</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portfólio</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <div class="more-options" style="height: 30px;">
+                <div class="mobile-menu-button" style="cursor: pointer;">
+                    <div id="toggle" class="toggle-button">
+                        <i class="fa fa-bars"></i>
+                    </div>
+                    
+                    <span id="x" class="x-button">X</span>
+                </div>
+
+                <div class="dark-mode-box" title="Ativar/Desativar contraste">
+                    <img src="./res/images/moon.png" alt="Ícone lua preto png" width="23px">
+                    <img src="./res/images/sun.png" alt="Ícone Sol amarelo png" width="23px"  style="display: none;">
+                </div>
+            </div>
+        </nav>
+    </nav>
+    <header>
+        <div class="presentation container">
+            <h1>
+                <span class="saudation">Olá,</span>
+                Eu sou Alex Santos
+            </h1>
+
+            <h2>
+                Desenvolvedor web
+            </h2>
+
+            <p class="presentation-paragraph">Seja bem-vindo a um mundo de <strong id="key-words">inovações</strong></br> Onde seu projeto sai do papel e vai para a web, onde milhões de pessoas podem encontra-lo!</p>
+
+            <div class="budget-box">
+                <a class="budget-text" href="#">
+                    Fazer orçamento
+                </a>
+            </div>
+
+            <h3 style="color: #ffffff00; font-size: 0.5px;">Portfólio de programador, portfolio para programador, como fazer portfólio para programador, portfólio profissional</h3>
+
+            <i class="to-down fa fa-chevron-down"></i>
+        </div>
+    </header>
+
+    <main>
+        <section class="services" id="services">
+            <h3 class="sections-title">Serviços</h3>
+
+            <div class="services-infos container">
+                <div class="services-card-info sites">
+                    <i class="teste fa-sharp fa fa-globe fa-spin fa-3x"></i>
+                    <h3>Criação de websites</h3>
+                    <p class="services-text">Criação de sites profissinais e pessoais com design moderno e interativo</p>
+                </div>
+
+                <div class="services-card-info landing-page">
+                    <i class="fa fa-rocket fa-spin fa-3x"></i>
+                    <h3>Criação de landing pages</h3>
+                    <p class="services-text">Criação de landing page sob medida para você atrair mais clientes</p>
+                </div>
+
+                <div class="services-card-info blog"> 
+                    <i class="fa fa-newspaper-o fa-spin fa-3x" aria-hidden="true"></i>
+                    <h3>Criação de blogs</h3>
+                    <p class="services-text">Criação de blogs para você colocar suas idéias na web para o mundo inteiro ver</p>
+                </div>
+            </div>
+        
+            <div class="services-info-2 container">
+                <div class="info-2-call-to-action">
+                    <div class="call-to-acition-texts">
+                        <h3>Vamos dar vida ao seu projeto?</h3>
+                        <p>Minha missão é <strong>desenvolver</strong> os melhores <strong>websites</strong> para os meus clientes, melhorando a <strong>imagem</strong> e <strong>alcance</strong> de sua <strong>empresa</strong> no mercado</p>
+                    </div>
+                    
+                    <div class="call-to-action-photo">
+                        <img class="template-photo" src="./res/images/templates-call-action.png" alt="Imagem da seçaõ">
+                    </div>
+                </div>
+
+                <a href="#" class="call-to-action-btn">Peça já seu orçamento</a>
+
+                <div class="info-2-others-info">
+                    <h3>Utilizo os 3 principais conceitos para a criação do seu website</h3>
+
+                    <div class="box-concept-card">
+                        <div class="concept-card">
+                            <i class="fa fa-lightbulb-o fa-3x"></i>
+                            <h4>Design criativo</h4>
+                            <p>Seu website com um design moderno e criativo é uma vitrine para atrair novos clientes</p>
+                        </div>
+
+                        <div class="concept-card">
+                            <i class="fa fa-tablet fa-3x"></i>
+                            <i class="fa fa-desktop fa-3x"></i>
+                            <i class="fa fa-mobile fa-3x"></i>
+                            <h4>Responsividade</h4>
+                            <p>Seu site multiplataforma para estar onde seu cliente está</p>
+                        </div>
+
+                        <div class="concept-card">
+                            <i class="fa fa-gear fa-3x"></i>
+                            <h4>Desenvolvimento</h4>
+                            <p>Utilizamos tecnologias modernas para o desenvolvimento cada projeto, o que faz com que o seu website seja único</p>
+                        </div>
+                    </div>
+
+                    <div class="card-manutention">
+                        <h4>Há, e não se preocupe, nós damos manutenção no seu website para deixá-lo sempre atualizado</h4>
+                    </div>
+                    <a href="#" class="call-to-action-btn">Peça já seu orçamento</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <h3 class="sections-title">Um pouco sobre mim</h3>
+            
+            <div class="about-info-box container">
+                <div class="about-photo">
+                    <img class="me-photo" src="./res/images/background.jpg" alt="Foto de Alex Santos portfólio para programador" style="width: 400px;">
+                </div>
+    
+                <div >
+                    <p class="about-texts">Olá, eu sou Alexsandro, mas pode me chamar de Alex Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi consequatur itaque placeat quos veniam necessitatibus omnis, rerum blanditiis corporis, molestiae atque iure libero, vel nam distinctio ex perferendis. Ut, quidem.</p>
+                </div>
+            </div>
+
+            <input class="download-cv" type="button" value="BAIXAR CV">
+        </section>
+
+        <section class="abilities" id="abilities">
+            <h3 class="sections-title">Minhas habilidades</h3>
+
+            <div class="abilities-infos">
+                <h4>Minhas especialidades</h4>
+
+                <div class="abilities-box container">
+                    <div class="abilities-box-technologies">
+                            <div class="js-icon"><p>JS</p></div>
+                            <h5>Javascript</h5>
+                        <span>1,6 anos</span>
+                        <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A consequatur, consequuntur ab quod quidem amet ipsum impedit! Quasi, sunt! Natus voluptatum possimus rem, ipsum blanditiis tempore! Vel architecto aut tempora!</p>
+                    </div>
+
+                    <div class="abilities-box-technologies">
+                        <i class="fa fa-html5 fa-3x"></i>
+                        <h5>HTML5</h5>
+                        <span>2 anos</span>
+                        <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A consequatur, consequuntur ab quod quidem amet ipsum impedit! Quasi, sunt! Natus voluptatum possimus rem, ipsum blanditiis tempore! Vel architecto aut tempora!</p>
+                    </div>
+
+                    <div class="abilities-box-technologies">
+                        <i class="fa fa-css3 fa-3x"></i>
+                        <h5>CSS3</h5>
+                        <span>2 anos</span>
+                        <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A consequatur, consequuntur ab quod quidem amet ipsum impedit! Quasi, sunt! Natus voluptatum possimus rem, ipsum blanditiis tempore! Vel architecto aut tempora!</p>
+                    </div>
+
+                    <div class="abilities-box-technologies">
+                        <i class="fa fa-git fa-3x"></i>
+                        <h5>Git</h5>
+                        <span>6 meses</span>
+                        <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A consequatur, consequuntur ab quod quidem amet ipsum impedit! Quasi, sunt! Natus voluptatum possimus rem, ipsum blanditiis tempore! Vel architecto aut tempora!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="abilities-infos">
+                <h4>O que estou estudando</h4>
+
+                <div class="abilities-box container">
+                    <div class="abilities-box-technologies">
+                        logo
+                        <h5>React</h5>
+                        <span>1 mês</span>
+                        <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A consequatur, consequuntur ab quod quidem amet ipsum impedit! Quasi, sunt! Natus voluptatum possimus rem, ipsum blanditiis tempore! Vel architecto aut tempora!</p>
+                    </div>
+    
+                    <div class="abilities-box-technologies">
+                        logo
+                        <h5>Tecnologia</h5>
+                        <span>1 mês</span>
+                        <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A consequatur, consequuntur ab quod quidem amet ipsum impedit! Quasi, sunt! Natus voluptatum possimus rem, ipsum blanditiis tempore! Vel architecto aut tempora!</p>
+                    </div>
+    
+                    <div class="abilities-box-technologies">
+                        logo
+                        <h5>Tecnologia</h5>
+                        <span>1 mês</span>
+                        <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A consequatur, consequuntur ab quod quidem amet ipsum impedit! Quasi, sunt! Natus voluptatum possimus rem, ipsum blanditiis tempore! Vel architecto aut tempora!</p>
+                    </div>
+    
+                    <div class="abilities-box-technologies">
+                        logo
+                        <h5>Tecnologia</h5>
+                        <span>1 mês</span>
+                        <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A consequatur, consequuntur ab quod quidem amet ipsum impedit! Quasi, sunt! Natus voluptatum possimus rem, ipsum blanditiis tempore! Vel architecto aut tempora!</p>
+                    </div>
+    
+                    <div class="abilities-box-technologies">
+                        logo
+                        <h5>Tecnologia</h5>
+                        <span>1 mês</span>
+                        <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A consequatur, consequuntur ab quod quidem amet ipsum impedit! Quasi, sunt! Natus voluptatum possimus rem, ipsum blanditiis tempore! Vel architecto aut tempora!</p>
+                    </div>
+    
+                    <div class="abilities-box-technologies">
+                        logo
+                        <h5>Tecnologia</h5>
+                        <span>1 mês</span>
+                        <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A consequatur, consequuntur ab quod quidem amet ipsum impedit! Quasi, sunt! Natus voluptatum possimus rem, ipsum blanditiis tempore! Vel architecto aut tempora!</p>
+                    </div>
+    
+                    <div class="abilities-box-technologies">
+                        logo
+                        <h5>Tecnologia</h5>
+                        <span>1 mês</span>
+                        <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A consequatur, consequuntur ab quod quidem amet ipsum impedit! Quasi, sunt! Natus voluptatum possimus rem, ipsum blanditiis tempore! Vel architecto aut tempora!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio" id="portfolio">
+            <h3 class="sections-title">Alguns trabalhos</h3>
+
+            <div class="portfolio-box container">
+                <div class="box-jobs">
+                    <a href="#">
+                        <img class="cover-photo" src="./res/images/em-breve.jpg" alt="">
+                    </a>
+                    <p>Em breve</p>
+                </div>
+    
+                <div class="box-jobs">
+                    <a href="#">
+                        <img class="cover-photo" src="./res/images/em-breve.jpg" alt="">
+                    </a>
+                    <p>Em breve</p>
+                </div>
+    
+                <div class="box-jobs">
+                    <a href="#">
+                        <img class="cover-photo" src="./res/images/em-breve.jpg" alt="">
+                    </a>
+                    <p>Em breve</p>
+                </div>
+    
+                <div class="box-jobs">
+                    <a href="#">
+                        <img class="cover-photo" src="./res/images/em-breve.jpg" alt="">
+                    </a>
+                    <p>Em breve</p>
+                </div>
+    
+                <div class="box-jobs">
+                    <a href="#">
+                        <img class="cover-photo" src="./res/images/em-breve.jpg" alt="">
+                    </a>
+                    <p>Em breve</p>
+                </div>
+    
+                <div class="box-jobs">
+                    <a href="#">
+                        <img class="cover-photo" src="./res/images/em-breve.jpg" alt="">
+                    </a>
+                    <p>Em breve</p>
+                </div>
+    
+                <div class="box-jobs">
+                    <a href="#">
+                        <img class="cover-photo" src="./res/images/em-breve.jpg" alt="">
+                    </a>
+                    <p>Em breve</p>
+                </div>
+    
+                <div class="box-jobs">
+                    <a href="#">
+                        <img class="cover-photo" src="./res/images/em-breve.jpg" alt="">
+                    </a>
+                    <p>Em breve</p>
+                </div>
+    
+                <div class="box-jobs">
+                    <a href="#">
+                        <img class="cover-photo" src="./res/images/em-breve.jpg" alt="">
+                    </a>
+                    <p>Em breve</p>
+                </div>
+    
+                <div class="box-jobs">
+                    <a href="#">
+                        <img class="cover-photo" src="./res/images/em-breve.jpg" alt="">
+                    </a>
+                    <p>Em breve</p>
+                </div>
+    
+                <div class="box-jobs">
+                    <a href="#">
+                        <img class="cover-photo" src="./res/images/em-breve.jpg" alt="">
+                    </a>
+                    <p>Em breve</p>
+                </div>
+    
+                <div class="box-jobs">
+                    <a href="#">
+                        <img class="cover-photo" src="./res/images/em-breve.jpg" alt="">
+                    </a>
+                    <p>Em breve</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h3 class="sections-title">Entre em contato comigo</h3>
+
+            <div class="contat-area container">
+                <form action="https://api.staticforms.xyz/submit" method="POST">
+                    <input type="hidden" name="accessKey" value="1e40c89e-3f5e-42ce-b222-79c51a4c40c8">
+                    <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/index.html#contact">
+                    <label for="name" style="margin-right: 35.5px;">Nome: </label>
+                    <input class="field" type="text" name="name" id="name" required placeholder="Digite seu nome"><br>
+                    <label for="email" style="margin-right: 40px;">Email: </label>
+                    <input class="field" type="email" name="email" id="email" required placeholder="Ex: seu@email.com"><br>
+                    <label for="message">Mensagem: </label>
+                    <textarea class="field" name="message" id="message" cols="30" rows="8" required placeholder="Digite sua mensagem"></textarea><br>
+                    <input class="submit-button" type="submit" value="Enviar"/>
+                </form>
+                
+                <div class="contact-list">
+                    <section class="contacts">
+                        <p><i class="fa fa-envelope"></i> <a href="mailto: alexsantos.alss.13@gmail.com">alexsantos.alss.13@gmail.com</a></p>
+                        <p><i class="fa fa-phone"></i> <a href="callto: +5583993625493">+55 83 99362-5493</a></p>
+                    </section>
+
+                    <section class="social-medias">
+                        <i class="social-media-icon linkedin fa-linkedin fa fa-linkedin"></i>
+                        <i class="social-media-icon github fa fa-github"></i>
+                        <i class="social-media-icon whatsapp fa fa-whatsapp"></i>
+                        <i class="social-media-icon telegram fa fa-telegram"></i>
+                    </section>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="end-info">
+            <section class="ong-n-sicial-project">
+                <div>
+                    <h3>Você tem uma ONG ou projeto social?</h3>
+                    <p>Entre em contato e vamos dar "cara e voz" a sua causa</p>
+                </div>
+
+                <div class="button-general-box">
+                    <a class="button-general" href="">Fale conosco</a>
+                </div> 
+            </section>
+
+            <section class="auxiliary-menu">
+                <h3>Menu auxiliar</h3>
+                <ul>
+                    <li>
+                        <a href="">Iniciar</a>
+                    </li>
+
+                    <li>
+                        <a href="">Serviços</a>
+                    </li>
+
+                    <li>
+                        <a href="">Sobre</a>
+                    </li>
+
+                    <li>
+                        <a href="">Habilidades</a>
+                    </li>
+
+                    <li>
+                        <a href="">Portfólio</a>
+                    </li>
+
+                    <li>
+                        <a href="">Contato</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="payment-methods">
+                <h3>Formas de pagamento</h3>
+                <div class="payment-methods-box">
+                    <img src="./res/images/pix-white-png.png" alt="Logo pix branco png" style="width: 40px;" title="PIX">
+                    <img src="./res/images/hpc.png" alt="Logo cartão hipercard branco png" style="width: 63px; height: 40px; padding-top: 2px;" title="Hipercard">
+                    <img src="./res/images/elo.png" alt="Logo cartão ELO branco png" style="width: 63px; height: 40px; padding-top: 2px; border-radius: 5px;" title="ELO">
+                    <i class="fa fa-cc-visa fa-3x" title="VISA"></i>
+                    <i class="fa fa-cc-mastercard fa-3x" title="Mastercard"></i>
+                    <i class="fa fa-cc-amex fa-3x" title="American Express"></i>
+                    <i class="fa fa-cc-diners-club fa-3x" title="Diners Club"></i>
+                </div>
+
+                <div class="button-general-box">
+                    <a class="button-general" href="">Fazer orçamento</a>
+                </div>               
+            </section>
+        </div>
+        <div class="end-footer container">
+            <p>Copyright &copy;Alex Santos | desenvolvedor web - <span>2023</span> - todos os direitos reservados</p>
+            <img class="end-logo" src="./res/images/main-logo-png.png" alt="Logo Alex Desenvolvedor Web" style="width: 85px; filter: drop-shadow(-1px 2px 6px #000);">
+        </div>
+    </footer>
+</body>
+</html>
