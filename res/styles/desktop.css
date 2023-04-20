@@ -274,6 +274,10 @@ h2{
 }
 
 /*3. About sections*/
+.about{
+    text-align: center;
+}
+
 .about-info-box{
     display: flex;
     justify-content: space-evenly;
@@ -289,7 +293,7 @@ h2{
     font-family: monospace, sans-serif;
     font-size: 1.5rem;
     letter-spacing: 3px;
-    margin: 50px 40%;
+    margin-top: 10%;
     background-color: var(--primary-font-color);
     color: var(--secundary-font-color);
     width: 300px;

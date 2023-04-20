@@ -141,7 +141,8 @@
     }
 
     .presentation-paragraph{
-        width: 450px;
+        max-width: 450px;
+        text-align: center;
     }
 
     /*Section general mobile style*/
@@ -155,6 +156,10 @@
     .sections-title:hover{
         animation: none;
         padding: 0;
+    }
+
+    main{
+        max-width: 600px;
     }
 
     /*Services section*/
